@@ -352,6 +352,7 @@ loop src="Final.014.mp4"></video>
 
 
 var v = $(".video");
+	$(document).ready(function(){
        $(v).on('canplay', function(){
           $(v).mouseenter(function(){
          $(".video").get(0).currentTime=0;
@@ -376,7 +377,7 @@ var v = $(".video");
              $(this).get(0).pause();
           })
        });
-
+	});
 </script>
 </body>
 </html>
