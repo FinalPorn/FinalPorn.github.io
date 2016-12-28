@@ -26,9 +26,9 @@ background-color: green;
 border-radius: 0px;
 float: ;
 height: 125px;
-width: 352.5px;
+width: 683.25px;
 margin-top: 33.5px;
-margin-left: 477.75px;
+margin-left: 117px;
 margin-right: 0px;
 margin-bottom: 0px;
 position: absolute;
@@ -48,25 +48,6 @@ height: 90px;
 width: 285.75px; 
 margin-top: 55px;
 margin-left: 905.25px;
-margin-right: 0px;
-margin-bottom: 0px;
-position: absolute;
-z-index: 10;
-}
-
-#left{
-border: 0px solid green;
-font-size: 20px;
-font-family: fantasy;
-text-align: center;
-color: white;
-background-color: green;
-border-radius: 0px;
-float: ;
-height: 90px;
-width: 285.75px; 
-margin-top: 55px;
-margin-left: 117px;
 margin-right: 0px;
 margin-bottom: 0px;
 position: absolute;
@@ -190,25 +171,25 @@ margin-top: 1991px;
 margin-bottom: 55px;
 }
 
-#page1{margin-left: 291.5px;}
+#page1{margin-left: 291.5px; font-weight: bold;}
 
-#page2{margin-left: 366.5px;}
+#page2{margin-left: 366.5px; font-weight: ;}
 
-#page3{margin-left: 441.5px;}
+#page3{margin-left: 441.5px; font-weight: ;}
 
-#page4{margin-left: 516.5px;}
+#page4{margin-left: 516.5px; font-weight: ;}
 
-#page5{margin-left: 591.5px;}
+#page5{margin-left: 591.5px; font-weight: ;}
 
-#page6{margin-left: 666.5px;}
+#page6{margin-left: 666.5px; font-weight: ;}
 
-#page7{margin-left: 741.5px;}
+#page7{margin-left: 741.5px; font-weight: ;}
 
-#page8{margin-left: 816.5px;}
+#page8{margin-left: 816.5px; font-weight: ;}
 
-#page9{margin-left: 891.5px;}
+#page9{margin-left: 891.5px; font-weight: ;}
 
-#page10{margin-left: 966.5px;}
+#page10{margin-left: 966.5px; font-weight: ;}
 
 </style>
 <title> Final </title>
@@ -217,15 +198,12 @@ margin-bottom: 55px;
 <div id="page">
 </div>
 <div id="title">
-<img src="Title.png" 
-style="width:352.5px;
+<img src="Title2.png" 
+style=
+"width:683.25px;
 height:125px;">
 </div>
 <div id="right">
-</div>
-
-<div id="left">
-<p></p>
 </div>
 
 <div id="p1"> 
@@ -308,43 +286,43 @@ loop src="Final.014.mp4"></video>
 </div>
 
 <div id="page1" class="pagetag">
-<p> <a href="file:///Users/NathanBryant/Desktop/Sagel.Final/Sagel.1.html"> 1 </a> </p>
+<p> <a> 1 </a> </p>
 </div>
 
 <div id="page2" class="pagetag">
-<p> <a href="file:///Users/NathanBryant/Desktop/Sagel.Final/Sagel.2.html"> 2 </a> </p>
+<p> <a href="file:///Users/NathanBryant/Desktop/Sagel.Final/page2.html"> 2 </a> </p>
 </div>
 
 <div id="page3" class="pagetag">
-<p> 3 </p>
+<p> <a href="file:///Users/NathanBryant/Desktop/Sagel.Final/page3.html"> 3 </a> </p>
 </div>
 
 <div id="page4" class="pagetag">
-<p> 4 </p>
+<p> <a href="file:///Users/NathanBryant/Desktop/Sagel.Final/page4.html"> 4 </a> </p>
 </div>
 
 <div id="page5" class="pagetag">
-<p> 5 </p>
+<p> <a href="file:///Users/NathanBryant/Desktop/Sagel.Final/page5.html"> 5 </a> </p>
 </div>
 
 <div id="page6" class="pagetag">
-<p> 6 </p>
+<p> <a href="file:///Users/NathanBryant/Desktop/Sagel.Final/page6.html"> 6 </a> </p>
 </div>
 
 <div id="page7" class="pagetag">
-<p> 7 </p>
+<p> <a href="file:///Users/NathanBryant/Desktop/Sagel.Final/page7.html"> 7 </a> </p>
 </div>
 
 <div id="page8" class="pagetag">
-<p> 8 </p>
+<p> <a href="file:///Users/NathanBryant/Desktop/Sagel.Final/page8.html"> 8 </a> </p>
 </div>
 
 <div id="page9" class="pagetag">
-<p> 9 </p>
+<p> <a href="file:///Users/NathanBryant/Desktop/Sagel.Final/page9.html"> 9 </a> </p>
 </div>
 
 <div id="page10" class="pagetag">
-<p> 10 </p>
+<p> <a href="file:///Users/NathanBryant/Desktop/Sagel.Final/page10.html"> 10 </a> </p>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -355,29 +333,13 @@ var v = $(".video");
 	$(document).ready(function(){
        $(v).on('canplay', function(){
           $(v).mouseenter(function(){
-         $(".video").get(0).currentTime=0;
-	     $("#000").get(0).currentTime=0;
-	     $("#001").get(0).currentTime=0;
-	     $("#002").get(0).currentTime=0;
-	     $("#003").get(0).currentTime=0;
-	     $("#004").get(0).currentTime=0;
-	     $("#005").get(0).currentTime=0;
-	     $("#006").get(0).currentTime=0;
-	     $("#007").get(0).currentTime=0;
-	     $("#008").get(0).currentTime=0;
-	     $("#009").get(0).currentTime=0;
-	     $("#010").get(0).currentTime=0;
-	     $("#011").get(0).currentTime=0;
-	     $("#012").get(0).currentTime=0;
-	     $("#013").get(0).currentTime=0;
-	     $("#014").get(0).currentTime=0;
-	     
+         $(v).get(0).currentTime=0;
              $(this).get(0).play();
           }).mouseleave(function(){
              $(this).get(0).pause();
           })
        });
-	});
+});
 </script>
 </body>
 </html>
